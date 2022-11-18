@@ -4,9 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tinos&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Commited! (2)</h1>
+    <header class="header">
+        <div class="header__topline container">
+            <img class="logo" src="assets/logo.svg" alt="Доставка еды">
+            <div class="navigation">
+                <nav>
+                    <ul class="navigation__menu">
+                        <li class="navigation__item"><a class="navigation__link" href="#">Главная</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Меню</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">О нас</a></li>
+                        <li class="navigation__item"><a class="navigation__link" href="#">Бронь</a></li>
+                    </ul>
+                </nav>
+                <img class="navigation__cart" src="assets/cart-min.svg" alt="Корзина">
+                <div class="navigation__divider"></div>
+                <a href="#" class="phone navigation__phone">
+                    <div class="phone__first_line">
+                        <svg class="phone__icon" xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="none"><mask id="b" width="23" height="23" x="0" y="0" maskUnits="userSpaceOnUse" style="mask-type:alpha"><g fill="#000" clip-path="url(#a)"><path d="M18.177 14.248c-.47-.49-1.039-.752-1.64-.752-.598 0-1.17.257-1.66.747l-1.535 1.53c-.126-.069-.252-.132-.373-.195a6.165 6.165 0 0 1-.481-.257c-1.437-.913-2.743-2.102-3.995-3.641-.607-.767-1.015-1.413-1.31-2.068.397-.364.766-.743 1.125-1.107l.408-.412c1.02-1.02 1.02-2.34 0-3.36L7.391 3.408a20.2 20.2 0 0 1-.451-.46 22.92 22.92 0 0 0-.913-.904c-.471-.466-1.034-.713-1.626-.713-.592 0-1.165.247-1.65.713l-.01.01-1.65 1.665A3.551 3.551 0 0 0 .036 5.976c-.117 1.418.3 2.738.621 3.602.786 2.121 1.961 4.087 3.714 6.194 2.126 2.539 4.684 4.544 7.606 5.956 1.117.53 2.607 1.156 4.272 1.262.102.005.209.01.306.01 1.121 0 2.063-.403 2.8-1.204.006-.01.015-.014.02-.024.253-.306.544-.582.85-.879.209-.199.422-.407.63-.626.481-.5.734-1.082.734-1.68 0-.601-.257-1.179-.748-1.664l-2.665-2.675Zm1.738 5.112c-.005 0-.005.004 0 0-.19.203-.383.388-.592.592-.316.3-.636.616-.937.97-.49.525-1.068.772-1.825.772-.073 0-.15 0-.224-.005-1.441-.092-2.781-.655-3.786-1.135-2.747-1.33-5.16-3.219-7.165-5.612-1.655-1.995-2.762-3.84-3.495-5.82-.451-1.209-.616-2.15-.544-3.04a2.228 2.228 0 0 1 .67-1.44l1.656-1.656c.237-.223.49-.345.737-.345.306 0 .554.185.71.34l.014.015c.296.276.577.563.873.869l.462.47 1.325 1.326c.514.514.514.99 0 1.504-.14.141-.277.282-.418.418-.407.417-.796.806-1.218 1.184-.01.01-.02.015-.024.025-.418.417-.34.825-.253 1.102l.015.043c.345.835.83 1.622 1.568 2.559l.005.004c1.34 1.65 2.752 2.937 4.31 3.923.2.126.403.228.597.325.175.087.34.17.48.257.02.01.04.024.06.034.164.083.32.121.48.121.403 0 .655-.252.738-.334l1.66-1.66c.165-.166.427-.365.733-.365.3 0 .548.19.699.355l.01.01 2.674 2.674c.5.495.5 1.005.005 1.52ZM12.43 5.47a6.155 6.155 0 0 1 3.35 1.739 6.188 6.188 0 0 1 1.737 3.35c.053.32.33.543.646.543.038 0 .072-.005.111-.01a.656.656 0 0 0 .54-.757 7.487 7.487 0 0 0-2.103-4.053 7.487 7.487 0 0 0-4.053-2.102.659.659 0 0 0-.757.534.648.648 0 0 0 .529.757ZM22.973 10.146a12.317 12.317 0 0 0-3.46-6.675A12.318 12.318 0 0 0 12.836.01a.653.653 0 0 0-.752.534c-.058.36.18.694.539.757a11.03 11.03 0 0 1 5.966 3.092 10.998 10.998 0 0 1 3.092 5.966c.053.32.33.544.646.544.038 0 .073-.005.111-.01a.643.643 0 0 0 .534-.747Z"/></g></mask><g mask="url(#b)"><path fill="#fff" d="M-9.061-81.545h130.333V39.031H-9.061z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h23v23H0z"/></clipPath></defs></svg>
+
+                        <strong class="phone__number">+999-888-76-54</strong>
+                    </div>
+                    <div class="phone__desc">Свяжитесь с нами для 
+                        бронирования</div>
+                    </a>
+                <button class="navigation__cta-button button">Заказ столика</button>
+            </div>
+        </div>
+        <div class="container header__cta">
+            <h1 class="header__title brown header__title-smaller">Добро пожаловать</h1>
+            <h1 class="header__title brown">В наш ресторан</h1>
+            <div class="header__slogan">Дом лучшей еды</div>
+            <button class="button header__button">View menu</button>
+        </div>
+    </header>
+    <ul class="benefits container">
+        <li class="benefits-card">
+            <img src="assets/Food.png" alt="Магическая Атмосфера" class="benefits-card__image">
+            <h4 class="benefits-card__title">Магическая <span class="brown">Атмосфера</span></h4>
+            <div class="benefits-card__desc">В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</div>
+        </li>
+        <li class="benefits-card">
+            <img src="assets/Food.png" alt="Лучшее качество Еды" class="benefits-card__image">
+            <h4 class="benefits-card__title">Лучшее качество <span class="brown">Еды</span></h4>
+            <div class="benefits-card__desc">Качество нашей еды - отменное!
+</div>
+        </li>
+        <li class="benefits-card">
+            <img src="assets/Food.png" alt="Недорогая еда" class="benefits-card__image">
+            <h4 class="benefits-card__title">Недорогая <span class="brown">еда</span></h4>
+            <div class="benefits-card__desc">Стоимость нашей Еды зависит только от ее количества. Качество всегда на высоте!</div>
+        </li>
+    </ul>
+    <section class="our-history container">
+        <div class="our-history__content">
+            <h2 class="our-history__title title">Наша <span class="brown">История</span></h2>
+            <div class="our-history__desc">Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе нехитрый быт, добывать и готовить себе еду.</div>
+            <ul class="our-history__products">
+                <li class="our-history__product">
+                    <div class="product__quantity">93</div>
+                    <div class="product__name">Напитки</div>
+                </li>
+                <li class="our-history__product">
+                    <div class="product__quantity">206</div>
+                    <div class="product__name">Еда</div>
+                </li>
+                <li class="our-history__product">
+                    <div class="product__quantity">71</div>
+                    <div class="product__name">Закуски</div>
+                </li>    
+            </ul>
+        </div>
+        <img src="assets/images.png" alt="Images" class="our-history__images">
+    </section>
+    <section class="promo-lunch">
+        <div class="promo-lunch__row container">
+            <div class="promo-lunch__content">
+                <h3 class="promo-lunch__title">Отпразднуйте в одном из самых лучших ресторанов.</h3>
+                <h4 class="promo-lunch__desc">Только в этом месяце бизнес-ланч от 250 ₽</h4>
+            </div>
+            <button class="button">Заказ столика</button>
+        </div>
+    </section>
+    <section class="our-food container">
+        <h2 class="our-food__title">Наши <span class="brown">Блюда</span></h2>
+        <div class="our-food__row">
+            <img src="assets/Pizza.png" alt="Пицца!" class="our-food__big-picture">
+            <div class="our-food__list">
+                <div class="food">
+                    <img src="assets/Burger.png" alt="Бургер!" class="food__image">
+                    <h4 class="food__title">Гамбургер мини</h4>
+                    <div class="food__price">220 ₽</div>
+                </div>
+                <div class="food">
+                    <img src="assets/Burger.png" alt="Бургер!" class="food__image">
+                    <h4 class="food__title">Гамбургер мини</h4>
+                    <div class="food__price">220 ₽</div>
+                </div>
+                <div class="food">
+                    <img src="assets/Burger.png" alt="Бургер!" class="food__image">
+                    <h4 class="food__title">Гамбургер мини</h4>
+                    <div class="food__price">220 ₽</div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

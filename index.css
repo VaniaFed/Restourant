@@ -1,0 +1,363 @@
+/* GENERAL */
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 14px "Open Sans", sans-serif, Arial;
+    color: #fff;
+}
+
+.brown {
+    color: #D67E34;
+}
+
+.container {
+    margin: 0 166px;
+}
+
+
+/* HEADER */
+
+.header {
+    height: 100vh;
+    background: url(/assets/hero\ image.png) no-repeat;
+    background-size: cover;
+}
+
+.header__topline {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation__item {
+    display: inline-block;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    list-style: none;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation__link:hover {
+    color: #FF7400;
+}
+
+.navigation__divider {
+    display: block;
+    width: 1px;
+    height: 50px;
+    margin-left: 21px;
+    background: #fff;
+}
+
+.navigation__cart {
+    width: 16px;
+    margin-left: 36px;
+    cursor: pointer;
+}
+
+.navigation__cart:hover path {
+    fill: #FF7400;
+}
+
+.navigation__phone {
+    margin-left: 30px;
+}
+
+.phone {
+    display: inline-block;
+    max-width: 170px;   
+    text-decoration: none;
+    color: #fff;
+}
+
+.phone:hover .phone__number {
+    color: #FF7400;
+}
+
+.phone:hover .phone__icon path {
+    fill: #FF7400;
+}
+
+.phone__first_line {
+    display: flex;
+    align-items: center;
+}
+
+.phone__number {
+    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.phone__desc {
+    margin-top: 1px;
+}
+
+.navigation__cta-button {
+    margin-left: 45px;
+}
+
+.button {
+    padding: 14px 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #FF7400;
+    color: #fff;
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #fff;
+    color: #FF7400;
+}
+
+.header__cta {
+    position: relative;
+    top: 50%;
+    transform: translateY(calc(-50% - 128px));
+    width: 600px;
+    text-align: center;
+}
+
+.header__title {
+    margin: 0;
+    font-family: 'Tinos';
+    font-size: 80px;
+}
+
+.header__title-smaller {
+    font-size: 50px;
+}
+
+.header__slogan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header__slogan::before,
+.header__slogan::after {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 1px;
+    background: #fff;
+}
+
+.header__slogan::before {
+    margin-right: 8px;
+}
+
+.header__slogan::after {
+    margin-left: 8px;
+}
+
+.header__button {
+    margin-top: 21px;
+}
+
+
+/* BENEFITS */
+
+.benefits {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+    column-gap: 30px;
+}
+
+.benefits-card {
+    text-align: center;
+    width: 349px;
+    padding: 30px;
+    font-family: 'Tinos';
+    background: #fff;
+    list-style: none;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-card__title {
+    margin: 4px 0 0 0;
+    font-size: 26px;
+    color: #2C2C2C;
+}
+
+.benefits-card__desc {
+    margin-top: 20px;
+    font-size: 26px;
+    color: #656363;
+}
+
+
+/* OUR HISTORY */
+
+.our-history {
+    display: flex;
+    align-items: center;
+    column-gap: 125px;
+    padding: 150px 0 122px;
+}
+
+.our-history__content,
+.our-history__images {
+    width: 50%;
+}
+
+.our-history__content {
+    text-align: center;
+}
+
+.our-history__title {
+    font-size: 54px;
+    color: #000;
+}
+
+.our-history__desc {
+    margin-top: 21px;
+    font-size: 16px;
+    color: #656363;
+}
+
+.our-history__products {
+    padding: 0;
+    margin: 40px 0 0 0;
+}
+
+.our-history__product {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.our-history__product:first-child {
+    margin-left: 0;
+}
+
+.product__name {
+    font-size: 20px;
+    color: #000;
+}
+
+.product__quantity {
+    margin-top: 2px;
+    font-size: 40px;
+    color: #BC9060;
+}
+
+
+/* PROMO */
+
+.promo-lunch {
+    padding: 80px 0;
+    background: url(assets/Promo.png) no-repeat;
+    background-size: cover;
+}
+
+.promo-lunch__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.promo-lunch__content {
+    width: 700px;
+}
+
+.promo-lunch__title {
+    margin: 0;
+    font-family: 'Tinos';
+    font-size: 52px;
+    line-height: 59.79px;
+    color: #D67E34;
+}
+
+.promo-lunch__desc {
+    margin: 20px 0 0 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.68px;
+}
+
+
+/* OUR FOOD */
+
+.our-food__title {
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 132px;
+    font-family: 'Tinos';
+    font-size: 54px;
+    color: #000;
+}
+
+.our-food__row {
+    display: flex;
+    column-gap: 30px;
+}
+
+.our-food__list {
+    width: 100%;
+}
+
+.food {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    font-family: 'Tinos';
+    font-size: 26px;
+    color: #000;
+}
+
+.food:first-child {
+    margin-top: 0;
+}
+
+.food__title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 0 30px;
+}
+
+.food__title::after {
+    content: '';
+    display: inline-block;
+    width: calc(100% - 216px);
+    height: 1px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: 1px dashed #656363;
+}
+
+.food__price {
+    white-space: nowrap;
+}
+
+
+/* OUR MENU */
+
+
+
+/* COMMENT */
+
+
+/* FOOD-GALLERY */
+
+
+/* OUR-CHEFS*/
