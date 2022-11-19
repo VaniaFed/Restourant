@@ -7,6 +7,10 @@ body {
     color: #fff;
 }
 
+.none {
+    display: none;
+}
+
 .brown {
     color: #D67E34;
 }
@@ -109,11 +113,13 @@ body {
 }
 
 .button {
+    box-sizing: border-box;
     padding: 14px 18px;
     font-weight: 700;
     text-transform: uppercase;
     background-color: #FF7400;
     color: #fff;
+    border: solid 3px #FF7400;
     transition: all .25s;
     cursor: pointer;
 }
@@ -121,6 +127,7 @@ body {
 .button:hover {
     background: #fff;
     color: #FF7400;
+    border: solid 3px #FF7400;
 }
 
 .header__cta {
@@ -352,7 +359,88 @@ body {
 
 /* OUR MENU */
 
+.our-menu {
+    margin-top: 152px;
+    padding-bottom: 226px;
+    text-align: center;
+    background: url(assets/Menu.png) no-repeat;
+    background-size: cover;
+}
 
+.our-menu__title {
+    margin: 0;
+    padding-top: 98px;
+    padding-bottom: 138px;
+    font-size: 54px;
+    font-family: 'Tinos';
+}
+
+.products-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.product-card {
+    position: relative;
+    padding: 80px 65px 30px;
+    background: #fff;
+    color: #000;
+}
+
+.product-card__pills {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    font-size: 13px;
+    font-weight: 700;
+    background: #c50e0e;
+    color: #fff;
+}
+
+.product-card__image-wrapper {
+    position: relative;
+}
+
+.product-card__price {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    padding: 34px;
+
+    font-family: 'Cookie';
+    font-size: 30px;
+
+    border: 7px solid #fff;
+    color: #fff;
+    background: #D67E34;
+    border-radius: 50%;
+}
+
+.product-card__title {
+    margin: 24px 0 0 0;
+    font-family: 'Tinos';
+    font-size: 26px;
+}
+
+.product-card__desc {
+    margin-top: 16px;
+    font-size: 16px;
+}
+
+.product-card__button {
+    margin-top: 20px;
+}
 
 /* COMMENT */
 
