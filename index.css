@@ -376,10 +376,31 @@ body {
 }
 
 .products-cards {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 30px;
+    list-style: none;
+}
+
+.products-cards__btn {
+    position: relative;
+    display: flex;
+    padding: 8px;
+    border-radius: 50%;
+    background: #D67E34;
+    cursor: pointer;
+    transition: background .25s;
+}
+
+.products-cards__btn:hover {
+    background: #FF7400;
+}
+
+.products-cards__navigation-icon {
+    width: 16px;
+    height: 16px;
 }
 
 .product-card {
