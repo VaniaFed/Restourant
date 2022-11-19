@@ -442,8 +442,59 @@ body {
     margin-top: 20px;
 }
 
+
 /* COMMENT */
 
+.review {
+    text-align: center;
+    padding: 104px 0;
+    color: #000;
+    background: #E5E5E5;
+}
+
+.review__text {
+    margin: 0;
+    padding: 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.review__user-avatar {
+    margin-top: 24px;
+}
+
+.review__user-status {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review__user-name {
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.slider-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2px;
+    margin: 24px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slider-buttons__button {
+    width: 7px;
+    height: 7px;
+    background: #C4C4C4;
+    border-radius: 50%;
+}
+
+.slider-buttons__button_active {
+    border: 2px solid #FF7400; 
+    background: #fff;
+}
 
 /* FOOD-GALLERY */
 
