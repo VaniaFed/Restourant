@@ -1,3 +1,4 @@
+@import url(normalize.css);
 /* GENERAL */
 
 body {
@@ -24,7 +25,7 @@ body {
 
 .header {
     height: 100vh;
-    background: url(/assets/hero\ image.png) no-repeat;
+    background: url(/img/hero\ image.png) no-repeat;
     background-size: cover;
 }
 
@@ -271,7 +272,7 @@ body {
 
 .promo-lunch {
     padding: 80px 0;
-    background: url(assets/Promo.png) no-repeat;
+    background: url(/img/Promo.png) no-repeat;
     background-size: cover;
 }
 
@@ -363,7 +364,7 @@ body {
     margin-top: 152px;
     padding-bottom: 226px;
     text-align: center;
-    background: url(assets/Menu.png) no-repeat;
+    background: url(/img/Menu.png) no-repeat;
     background-size: cover;
 }
 
