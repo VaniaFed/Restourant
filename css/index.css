@@ -533,7 +533,42 @@ body {
     background: #fff;
 }
 
+
 /* FOOD-GALLERY */
+
+.food-gallery {
+    text-align: center;
+}
+
+.food-gallery__title {
+    margin: 0;
+    padding: 101px 0 60px;
+    font-family: 'Tinos';
+    font-size: 54px;
+    color: #000;
+}
+
+.photos__row {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.photos__row:last-child {
+    margin-bottom: 0;
+}
+
+.photos__row_second {
+    grid-template-columns: 25% 25% 50%;
+}
+
+.photos__item {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
 
 
 /* OUR-CHEFS*/
