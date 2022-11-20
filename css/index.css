@@ -2,6 +2,8 @@
 /* GENERAL */
 
 :root {
+    --container-width: 1100px;
+    --container-padding: 15px;
     --accent: #FF7400;
     --secondary: #BC9060;
 }
@@ -22,7 +24,10 @@ body {
 }
 
 .container {
-    margin: 0 166px;
+    max-width: var(--container-width);
+    padding: 0 var(--container-padding);
+    margin: 0 auto;
+    /* margin: 0 166px; */
 }
 
 
@@ -134,6 +139,10 @@ body {
     background: #fff;
     color: var(--accent);
     border: solid 3px var(--accent);
+}
+
+.container-left {
+    padding-left: calc((100% - var(--container-width)) / 2 - var(--container-padding));
 }
 
 .header__cta {
