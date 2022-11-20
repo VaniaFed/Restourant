@@ -1,6 +1,11 @@
 @import url(normalize.css);
 /* GENERAL */
 
+:root {
+    --accent: #FF7400;
+    --secondary: #BC9060;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -25,7 +30,7 @@ body {
 
 .header {
     height: 100vh;
-    background: url(/img/hero\ image.png) no-repeat;
+    background: url(/img/Header/hero\ image.png) no-repeat;
     background-size: cover;
 }
 
@@ -54,7 +59,7 @@ body {
 }
 
 .navigation__link:hover {
-    color: #FF7400;
+    color: var(--accent);
 }
 
 .navigation__divider {
@@ -72,7 +77,7 @@ body {
 }
 
 .navigation__cart:hover path {
-    fill: #FF7400;
+    fill: var(--accent);
 }
 
 .navigation__phone {
@@ -87,11 +92,11 @@ body {
 }
 
 .phone:hover .phone__number {
-    color: #FF7400;
+    color: var(--accent);
 }
 
 .phone:hover .phone__icon path {
-    fill: #FF7400;
+    fill: var(--accent);
 }
 
 .phone__first_line {
@@ -118,17 +123,17 @@ body {
     padding: 14px 18px;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #FF7400;
+    background-color: var(--accent);
     color: #fff;
-    border: solid 3px #FF7400;
+    border: solid 3px var(--accent);
     transition: all .25s;
     cursor: pointer;
 }
 
 .button:hover {
     background: #fff;
-    color: #FF7400;
-    border: solid 3px #FF7400;
+    color: var(--accent);
+    border: solid 3px var(--accent);
 }
 
 .header__cta {
@@ -264,7 +269,7 @@ body {
 .product__quantity {
     margin-top: 2px;
     font-size: 40px;
-    color: #BC9060;
+    color: var(--secondary);
 }
 
 
@@ -272,7 +277,7 @@ body {
 
 .promo-lunch {
     padding: 80px 0;
-    background: url(/img/Promo.png) no-repeat;
+    background: url(/img/Promo/Promo.png) no-repeat;
     background-size: cover;
 }
 
@@ -364,7 +369,7 @@ body {
     margin-top: 152px;
     padding-bottom: 226px;
     text-align: center;
-    background: url(/img/Menu.png) no-repeat;
+    background: url(/img/Our\ menu/Menu.png) no-repeat;
     background-size: cover;
 }
 
@@ -396,7 +401,7 @@ body {
 }
 
 .products-cards__btn:hover {
-    background: #FF7400;
+    background: var(--accent);
 }
 
 .products-cards__navigation-icon {
@@ -511,10 +516,11 @@ body {
     height: 7px;
     background: #C4C4C4;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .slider-buttons__button_active {
-    border: 2px solid #FF7400; 
+    border: 2px solid var(--accent); 
     background: #fff;
 }
 
