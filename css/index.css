@@ -30,6 +30,12 @@ body {
     /* margin: 0 166px; */
 }
 
+.title {
+    font-family: 'Tinos';
+    font-size: 54px;
+    color: #000;
+}
+
 
 /* HEADER */
 
@@ -302,8 +308,6 @@ body {
 
 .promo-lunch__title {
     margin: 0;
-    font-family: 'Tinos';
-    font-size: 52px;
     line-height: 59.79px;
     color: #D67E34;
 }
@@ -322,9 +326,6 @@ body {
     text-align: center;
     margin-top: 140px;
     margin-bottom: 132px;
-    font-family: 'Tinos';
-    font-size: 54px;
-    color: #000;
 }
 
 .our-food__row {
@@ -386,8 +387,7 @@ body {
     margin: 0;
     padding-top: 98px;
     padding-bottom: 138px;
-    font-size: 54px;
-    font-family: 'Tinos';
+    color: #fff;
 }
 
 .products-cards {
@@ -543,9 +543,6 @@ body {
 .food-gallery__title {
     margin: 0;
     padding: 101px 0 60px;
-    font-family: 'Tinos';
-    font-size: 54px;
-    color: #000;
 }
 
 .photos__row {
@@ -572,3 +569,21 @@ body {
 
 
 /* OUR-CHEFS*/
+
+.our-chiefs {
+    text-align: center;
+}
+
+.our-chiefs__title {
+    margin: 0;
+    padding: 100px 0 110px;
+}
+
+.our-chiefs__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;
+    margin: 0;
+    list-style: none;
+}
