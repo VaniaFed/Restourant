@@ -587,3 +587,11 @@ body {
     margin: 0;
     list-style: none;
 }
+
+.footer {
+    display: block;
+    width: 100%;
+    min-height: 732px;
+    background: url(/img/Footer/Footer.png) no-repeat;
+    background-size: cover;
+}
